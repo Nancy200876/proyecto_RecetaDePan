@@ -1,0 +1,224 @@
+/*ImágenDeFondo*/
+body{
+    
+    background-image:url(../css/imágenes/espiga\ de\ trigo.png) ;
+    background-color: bisque;
+}
+/*TítuloPrincipal*/
+h1{
+    color: darkred;
+    font-size:xx-large;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: solid;
+    letter-spacing: 5px;
+    position:absolute;
+    top: 20px;
+    
+}
+
+
+/*TítuloSecundario*/
+h2{
+    color: chocolate;
+    font-style: normal;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+/*ColorTexto*/
+p{
+    color: rgb(0, 208, 255);
+}
+/*ColorListaIngredientes*/
+.lista{
+    
+    color: chartreuse;
+    
+}
+/*colorListaPreparación*/
+.lista1{
+    color: darkgreen;
+}
+/*cardDeIngredientesImagen*/
+.card{
+    width: 300px;
+    background-color: darkorange;
+    border: 2px solid ;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 600px;
+    /*margenParaAlinearConLaCard*/
+    margin-top: -130px;
+    
+    
+    
+}
+/*paraQueLaImagenOcupeTodoElEspacio*/
+.card img{
+   max-width:100% ;
+    
+
+}
+/*TítuloMostrarIngredientes*/
+.card h2{
+   color: black; 
+   text-align: center;
+}
+/*contenedorDelHeader*/
+.contenedor_límite{
+    background-color: burlywood;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 60px;
+    position:relative;
+   
+}
+/*ContenedorDelFooter*/
+.contenedor_límite1{
+  
+    #cssportal-grid {
+        display: grid;
+        grid-template-rows: 2fr 5fr;
+        grid-template-columns: repeat(3, 1fr);
+    gap: 5px 10px;
+   
+        width: 100%;
+        height: 100%;
+    }
+    #div1 {
+        
+        grid-area: 1 / 1 / 2 / 4;
+        background-color:coral;
+        text-align: center;
+    }
+    #div2 {
+        grid-area: 2/1/3/2;
+        background-color:firebrick;
+    }
+    #div3 {
+        grid-area: 2/2/3/3;
+        background-color:firebrick;
+    }
+    #div4 {
+        grid-area: 2/3/3/4;
+        background-color:firebrick;
+    }
+}
+/*ContenedorDeLaPreparación*/
+.contenedorLímite{
+    background-color: darksalmon;
+    margin:auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 25px;
+    border: 2px;
+    border-radius: 15px;
+}
+/*MargenNoPredeterminado*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*MargenDelContenedorDeLaPreparaciónYElÚltimoPárrafo*/
+section{
+    margin-top: 30px;
+} 
+/*LinkDentroDelContenedor*/
+.link{
+    position: absolute;
+    top: 60px;
+    color: brown;
+}
+.link:hover{
+    color: blue;
+}
+/*LinkDeNavegaciónDentroDelContenedor*/
+.nav{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+/*ParaQueNoTengaCircle*/
+.navUl{
+    list-style:none;
+    
+}
+/*ParaQueSeColoquenEnLaMismaLínea*/
+.navL{
+    display: inline;
+}
+.nav_a{
+
+    text-decoration: none;
+    color: brown;
+}  
+.nav_a:hover{
+    color: blue;
+}
+/*listaDeIngredientes*/
+.card2{
+    width: 200px;
+    
+    
+    padding: 10px;
+   margin-top: 20px;
+    margin-right: 200px;
+
+}
+/*contenedorDeLasCard*/
+.contenedor_límite2{
+    background-color: burlywood;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 50px;
+
+}
+/*contenedorPadreDeLasCard*/
+.padre{
+    background-color:bisque;
+padding: 10px;
+  /*paraAlinearLasCardHorizontalmente*/
+  display: flex;
+}
+/*cardDeLasOtrasRecetas*/
+.card3{
+ 
+   width: 100%;
+   background-color: maroon;
+   border: 2px solid ;
+   padding: 10px;
+   border-radius: 15px;
+   margin-left: 5px;
+}
+ /*queLaImagenOcupeTodoElEspacio*/   
+.card3 img{
+max-width:  100%;
+}
+/*títuloDeLasCard*/
+.card3 h2{
+    color:chocolate; 
+    text-align: center;
+    text-decoration: solid;
+ }
+ /*linkDeNavegaciónDeLasCard*/
+ .card3 a{
+    text-decoration:underline;
+     color:blanchedalmond;
+ }
+ /*seudoclase*/
+ .card3 a:hover{
+    color: blue;
+ }
+ /*queryParaAdaptarACualquierDispositivo*/
+@media screen and (max-width:500px){
+    .padre{
+        
+        flex-direction: column;
+        align-items: start;
+    } 
+        
+}     
+      
+    

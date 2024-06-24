@@ -1,0 +1,45 @@
+.nuevoColor{
+  background-color: brown;
+  border: 3px solid;
+  text-decoration: underline;
+  color: bisque;
+
+  
+
+}
+.alineación{
+  
+  margin: auto 0;
+}
+.contenedor_límite{
+  background-color: burlywood;
+  margin:auto;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.dropdown1{
+  background-color:crimson;
+  border:3px;
+
+  text-decoration: underline;
+  color:burlywood;
+}
+.dropdown-item{
+  background-color: darksalmon;
+}
+.h1{
+  color:sienna;
+    font-size:xx-large;
+    font-style: italic;
+    text-align: center;
+    text-decoration: solid;
+    letter-spacing: 5px;
+  
+    top: 20px;
+}
+
+
+
+  
+ 

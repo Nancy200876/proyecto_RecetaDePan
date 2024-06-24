@@ -1,0 +1,64 @@
+/*Fondo*/
+body{
+    
+ 
+    background-color: bisque;
+}
+/*TítuloPrincipal*/
+h1{
+    color:blanchedalmond;
+    font-size:xx-large;
+    font-style: italic;
+    text-align: center;
+    text-decoration: solid;
+    letter-spacing: 5px;
+  
+    top: 20px;
+    
+}
+
+
+/*TítuloSecundario*/
+h2{
+    color: chocolate;
+    font-style: normal;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+/*contenedorDelHeader*/
+.contenedor_límite{
+    background-color:maroon;
+    margin:auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    margin-top: 20px;
+  display: inline;
+}
+.nav_a{
+
+    text-decoration:underline;
+    color:beige;
+    
+} 
+.nav_a:hover{
+    color: blue;
+}
+ /*queryParaAdaptarACualquierDispositivo*/
+ @media screen and (max-width:500px){
+    .contenedor_límite{
+        
+        flex-direction: column;
+        align-items: start;
+    } 
+}
